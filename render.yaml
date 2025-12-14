@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: store-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn config.wsgi
