@@ -1,0 +1,17 @@
+# .gitignore
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.log
+
+# Entorno virtual
+venv/
+env/
+
+# Configuración de Django
+tienda_backend/settings.py  # Solo si manejas variables de entorno en un archivo local
+db.sqlite3
+
+# Variables de entorno
+.env
